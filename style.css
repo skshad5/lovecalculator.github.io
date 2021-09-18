@@ -1,0 +1,43 @@
+body {
+  background: url(img/love-bg.jpg);
+  background-position: left;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+label {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.love-button {
+  width: 100%;
+  background-color: rgba(245, 34, 34, 0.932);
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.love-button:hover {
+  background-color: rgba(245, 34, 34);
+}
+
+.result-title {
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(228, 33, 33);
+}
+
+.result-love {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: rgba(255, 0, 0, 0.842);
+  color: white;
+  margin-top: 20px;
+}
+
+.love-icon {
+  color: red;
+  font-size: 50px;
+}

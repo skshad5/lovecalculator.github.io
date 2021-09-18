@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Css Link -->
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Love Calculator</title>
+  </head>
+  <body>
+    <section>
+      <span class="love-icon"><i class="fas fa-heart"></i></span>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mt-5">
+            <div id="love-name">
+              <form>
+                <div class="row">
+                  <div class="col">
+                    <label for="maleName">Male</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="maleName"
+                      placeholder="Male Name"
+                    />
+                  </div>
+                  <div class="col">
+                    <label for="femaleName">Female</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="femaleName"
+                      placeholder="Female Name"
+                    />
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 mt-5">
+            <div class="button">
+              <button type="button" class="btn love-button">Calculate</button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div id="result">
+                <h2 class="result-title">Result</h2>
+                <h3 class="result-love"></h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- JavaScript Link -->
+    <script src="js/fontawesome.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
